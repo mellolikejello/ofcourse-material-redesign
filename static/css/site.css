@@ -13,11 +13,12 @@ body {
 
 }
 
-body, h1, h2, h3, h4, h5, h6, div, p {
+body, div, p {
     font-family: 'Liberation Sans', Arial, sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6, .jumbotron p {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
 
