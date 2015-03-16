@@ -54,11 +54,11 @@
         <div class="col-md-3">
           <div class="well">
             <ul class="list-unstyled">
-              <li><span class="glyphicon glyphicon-calendar"></span> ${course['start']} &mdash; ${course['end']}</li>
-              <li><span class="glyphicon glyphicon-bell"></span> ${course['times']}</li>
-              <li><span class="glyphicon glyphicon-shopping-cart"></span> ${course['course']}</li>
-              <li><span class="glyphicon glyphicon-map-marker"></span> ${course['location']}</li>
-              <li><span class="glyphicon glyphicon-envelope"></span>
+              <li><span class="icon mdi-notification-event-note"></span> ${course['start']} &mdash; ${course['end']}</li>
+              <li><span class="icon mdi-device-access-time"></span> ${course['times']}</li>
+              <li><span class="icon mdi-maps-local-grocery-store"></span> ${course['course']}</li>
+              <li><span class="icon mdi-maps-pin-drop"></span> ${course['location']}</li>
+              <li><span class="icon mdi-content-mail"></span>
                 <a href="mailto:${instructor['email']}">${instructor['email']}</a>
               </li>
             </ul>
