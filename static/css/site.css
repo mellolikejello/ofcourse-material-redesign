@@ -10,7 +10,14 @@
 body {
     padding-top: 60px;
     padding-bottom: 40px;
+}
 
+a {
+    color: #303f9f;
+}
+
+a:hover {
+    color:#3f51b5;
 }
 
 body, div, p {
@@ -20,6 +27,12 @@ body, div, p {
 h1,h2,h3,h4,h5,h6, .jumbotron p {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: bold;
+}
+
+.jumbotron, .well {
+/*  TODO: figure out how to override .less */
+    box-shadow: none !important;
+    background-color: none !important;
 }
 
 .padded {
@@ -57,24 +70,36 @@ h1,h2,h3,h4,h5,h6, .jumbotron p {
     text-align: center;
 }
 
-.lecture_list>li{
-    font-size: 24.5px;
-    margin: -10px 0;
-    font-weight: bold;
-    line-height: 40px;
+.panel-info .panel-heading {
+    background-color: #3F51B5;
 }
-.lecture_list>li ol, .lecture_list>li ul{
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 20px;
-    margin-top: -10px;
+
+.panel-title {
+    color: #FFF;
+    padding: 5px 0;
+}
+
+.panel-info a:hover {
+    text-decoration: none;
+}
+
+.jumbotron .uglymug {
+    float: left;
 }
 
 /* showblogs-specific */
 .uglymug {
+    height: 70px;
     border-radius: 64px;
     -webkit-border-radius: 64px;
     -moz-border-radius: 64px;
+}
+
+.avatar-link {
+    border-radius: 100%;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.23), 0px 10px 30px rgba(0, 0, 0, 0.19);
+    height: 70px;
+    width: 70px;
 }
 
 .blog {
@@ -96,29 +121,27 @@ h1,h2,h3,h4,h5,h6, .jumbotron p {
 
 /* Colors! */
 .special {
-    background: yellow;
+    /* yellow */
+    background: #FFEB3B;
 }
 
 .cancelled {
-    background: red;
+    /* red */
+    background: #F44336;
 }
 
 .guest {
-    background: lightgreen;
-}
-
-.tbd {
-    background: lightgrey;
+    /* green */
+    background: #4CAF50;
 }
 
 .hackathon {
-    background: orange;
+    /* orange */
+    background: #FF9800;
 }
 
 .vaycay {
-    background: darkgrey;
+    /* dark gray */
+    background: #424242;
 }
 
-.redtext {
-    color: darkred;
-}
