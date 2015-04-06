@@ -1,18 +1,9 @@
 <%inherit file="master.mak" />
 
-<div class="jumbotron">
+<div class="header">
     <h1>${course['name']}</h1>
     <p>${course['desc']}</p>
 </div>
-
-<div class="row">
-<div class="col-md-6">
-  <h2>This Week</h2>
-</div>
-<div class="col-md-6">
-  <h2>Stream</h2>
-</div>
-</div><!--/row-->
 
 <div class="row">
 <div class="col-md-4">
