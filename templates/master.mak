@@ -24,7 +24,7 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top shadow-z-3">
       <div class="navbar-header">
         <a class="navbar-brand" href="/">${course['name']}@${course['place']}</a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
